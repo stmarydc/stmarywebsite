@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L62ETL212"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9L62ETL212');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>St. Mary Coptic Orthodox Church · Washington D.C.</title>
+  <meta name="description" content="St. Mary Coptic Orthodox Church of Washington D.C., serving the D.C. metro area from Bethesda, Maryland. All are welcome.">
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&family=Noto+Sans+Coptic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=20261017d">
+</head>
+<body>
+
+  <!-- ============ SVG sprite: the Coptic cross + icons (drawn for this site) ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <!-- Coptic cross: four equal flared arms, each ending in a trefoil (three budded circles) -->
+      <symbol id="coptic-cross" viewBox="0 0 100 100">
+        <g id="cross-arm">
+          <path d="M46 50 43 24h14l-3 26z"/>
+          <circle cx="50" cy="13" r="6.5"/>
+          <circle cx="41" cy="21" r="5.5"/>
+          <circle cx="59" cy="21" r="5.5"/>
+        </g>
+        <use href="#cross-arm" transform="rotate(90 50 50)"/>
+        <use href="#cross-arm" transform="rotate(180 50 50)"/>
+        <use href="#cross-arm" transform="rotate(270 50 50)"/>
+        <circle cx="50" cy="50" r="7"/>
+      </symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-3.2.5-4.8s-.1-3.2-.5-4.8zM9.7 15.1V8.9l5.8 3.1z"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M13.5 22v-8.2h2.8l.4-3.2h-3.2V8.5c0-.9.3-1.6 1.6-1.6h1.7V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.2h2.8V22z"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.4 3.5 2.1-.8 1.3L11 13V7h2z"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="St. Mary Coptic Orthodox Church, home">
+        <span class="brand-mark"><img src="images/logo.jpg" alt="" width="64" height="64"></span>
+        <span class="brand-text">
+          <span class="brand-name">St. Mary</span>
+          <span class="brand-sub">Coptic Orthodox Church · Washington D.C.</span>
+        </span>
+      </a>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <button class="nav-close" type="button" aria-label="Close menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+        </button>
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="worship.html">Worship</a></li>
+          <li><a href="ministries.html">Ministries</a></li>
+          <li><a href="faith.html">Our Faith</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" aria-pressed="true" lang="en">EN</button>
+          <button type="button" aria-pressed="false" lang="ar">عربي</button>
+        </div>
+        <div class="nav-extra">
+          <a class="btn btn--gold" href="give.html">Give</a>
+          <a href="https://copadiocese.ccbchurch.com/goto/login" target="_blank" rel="noopener">Member Login (CCB)</a>
+          <a href="tel:+12404684030">(240) 468-4030</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-toggle header-lang" role="group" aria-label="Language">
+          <button type="button" aria-pressed="true" lang="en">EN</button>
+          <button type="button" aria-pressed="false" lang="ar">عربي</button>
+        </div>
+        <a class="btn btn--gold btn--sm" href="give.html">Give</a>
+        <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="nav-scrim" aria-hidden="true"></div>
+  </header>
+
+  <!-- ============ Fasting-season banner (js/main.js shows it only while a fast is active) ============ -->
+  <aside class="fast-banner" aria-label="Current fasting season" data-fast-banner>
+    <div class="container">
+      <svg class="cross" aria-hidden="true"><use href="#coptic-cross"/></svg>
+      <strong data-dynamic data-fast-name>Nativity Fast</strong>
+      <span data-dynamic data-fast-day>Day 12 of 43</span>
+    </div>
+  </aside>
+
+
+  <main id="main">
+
+    <!-- ============ Hero ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner">
+
+        <a class="status-pill" href="https://www.youtube.com/@saintmarydc/live" target="_blank" rel="noopener" data-live-pill>
+          <span class="status-dot" aria-hidden="true"></span>
+          <span data-dynamic data-live-text>Next: Sunday Divine Liturgy · in 1 day 14 hrs</span>
+        </a>
+
+        <p class="hero-coptic reveal">
+          <span lang="cop">Ϯⲡⲁⲣⲑⲉⲛⲟⲥ Ⲙⲁⲣⲓⲁ</span>
+        </p>
+
+        <h1 id="hero-title" class="reveal reveal-delay-1">
+          St. Mary Coptic Orthodox Church
+          <span class="h1-line2">of Washington D.C.</span>
+        </h1>
+
+        <div class="divider reveal reveal-delay-2" aria-hidden="true"><svg class="cross"><use href="#coptic-cross"/></svg></div>
+
+        <figure class="verse reveal reveal-delay-2">
+          <blockquote>
+            <p class="verse-en">“He has shown you, O man, what is good; and what does the Lord require of you but to do justly, to love mercy, and to walk humbly with your God.”</p>
+            <p class="verse-ar" lang="ar" dir="rtl">قَدْ أَخْبَرَكَ أَيُّهَا الإِنْسَانُ مَا هُوَ صَالِحٌ، وَمَاذَا يَطْلُبُهُ مِنْكَ الرَّبُّ إِلاَّ أَنْ تَصْنَعَ الْحَقَّ وَتُحِبَّ الرَّحْمَةَ وَتَسْلُكَ مُتَوَاضِعًا مَعَ إِلَهِكَ.</p>
+          </blockquote>
+          <figcaption><cite>Micah 6:8</cite></figcaption>
+        </figure>
+
+        <div class="btn-row reveal reveal-delay-3">
+          <a class="btn btn--gold" href="visit.html">Plan Your Visit</a>
+          <a class="btn btn--ghost-light" href="https://www.youtube.com/@saintmarydc/live" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-play"/></svg> Watch Live
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Welcome ============ -->
+    <section class="section section--parchment" aria-labelledby="welcome-title">
+      <div class="container split">
+        <figure class="photo photo--arch reveal">
+          <img src="images/sanctuary.jpg" data-placeholder="images/placeholder-lapis.svg"
+               alt="A priest in white and gold vestments praying from the altar during the Divine Liturgy" width="800" height="1000" style="object-position: 52% 40%;">
+          <figcaption>Photo: Sanctuary during Liturgy</figcaption>
+        </figure>
+
+        <div class="reveal reveal-delay-1">
+          <span class="eyebrow">Welcome Home</span>
+          <h2 id="welcome-title">An ancient faith, a family for today</h2>
+          <p class="lede">Founded in 2020, St. Mary serves the Washington D.C. metropolitan area from our home in Bethesda, Maryland. We worship in the unbroken tradition of the Church of Alexandria, founded by St. Mark the Apostle.</p>
+          <p>Whether you grew up Coptic, are exploring Orthodoxy for the first time, or are simply looking for a place to pray, you are welcome here. We openly welcome people of every race and nationality.</p>
+          <ul class="values">
+            <li><svg class="cross" aria-hidden="true"><use href="#coptic-cross"/></svg> Salvation through Christ</li>
+            <li><svg class="cross" aria-hidden="true"><use href="#coptic-cross"/></svg> Loving our neighbor</li>
+            <li><svg class="cross" aria-hidden="true"><use href="#coptic-cross"/></svg> A life of service</li>
+            <li><svg class="cross" aria-hidden="true"><use href="#coptic-cross"/></svg> Welcoming every nation</li>
+          </ul>
+          <div class="btn-row">
+            <a class="btn btn--primary" href="about.html">Our Story</a>
+            <a class="btn btn--ghost" href="faith.html">The Coptic Faith</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Today in the Coptic Church ============ -->
+    <section class="section section--ivory" aria-labelledby="today-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="divider" aria-hidden="true"><svg class="cross"><use href="#coptic-cross"/></svg></div>
+          <span class="eyebrow">Daily Rhythm</span>
+          <h2 id="today-title">Today in the Coptic Church</h2>
+          <p>The Church keeps time by the feasts, fasts, and saints of the Coptic calendar, counted from the Era of the Martyrs (A.M.).</p>
+        </div>
+
+        <article class="card card--framed today reveal" aria-label="Today in the Coptic Church">
+          <div class="today-date">
+            <span class="eyebrow">Today</span>
+            <p class="today-greg" data-dynamic data-today="gregorian">Saturday, September 26, 2026</p>
+            <p class="today-coptic" data-dynamic data-today="coptic">16 Thout 1743 A.M.</p>
+            <div class="today-season">
+              <span>Liturgical season</span>
+              <strong data-dynamic data-today="season">Season of the Nayrouz</strong>
+              <span data-dynamic data-today="season-note"></span>
+            </div>
+          </div>
+          <div class="today-body">
+            <div class="today-item">
+              <h3><svg class="cross" aria-hidden="true"><use href="#coptic-cross"/></svg> Saint of the Day <small>(Synaxarium)</small></h3>
+              <!-- Filled by js/main.js from js/readings-data.js (collected from CopticChurch.net) -->
+              <ul class="saints" data-dynamic data-today-saints>
+                <li><a href="https://www.copticchurch.net/synaxarium/2_5.html#1" target="_blank" rel="noopener">The Martyrdom of St. Paul, Patriarch of Constantinople</a></li>
+              </ul>
+            </div>
+            <div class="today-item">
+              <h3><svg class="cross" aria-hidden="true"><use href="#coptic-cross"/></svg> Today’s Readings <small>(Katameros)</small></h3>
+              <ul>
+                <li><span>Pauline Epistle</span> <em data-dynamic data-reading="p">2 Timothy 3:10 – 4:22</em></li>
+                <li><span>Catholic Epistle</span> <em data-dynamic data-reading="c">1 Peter 5:1–14</em></li>
+                <li><span>Acts (Praxis)</span> <em data-dynamic data-reading="a">Acts 20:17–38</em></li>
+                <li><span>Liturgy Gospel</span> <em data-dynamic data-reading="g">John 10:1–16</em></li>
+              </ul>
+              <a class="link-arrow today-link" data-today-readings-link href="https://www.copticchurch.net/readings" target="_blank" rel="noopener">Read today’s readings</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ Service times ============ -->
+    <section class="section section--lapis" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Worship With Us</span>
+          <h2 id="services-title">Service Times</h2>
+          <p>All services are held at 5910 Goldsboro Rd, Bethesda, MD, and most are streamed live on YouTube. We also gather online for a prayer meeting on Sunday evenings, 8:30 – 9:30 PM.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <article class="card card--dark service reveal">
+            <span class="service-day">Sunday</span>
+            <h3>Holy Liturgy</h3>
+            <p class="service-time">6:30 – 9:15 AM</p>
+            <p>The Sunday Divine Liturgy, the heart of our week together.</p>
+          </article>
+          <article class="card card--dark service reveal reveal-delay-1">
+            <span class="service-day">Friday</span>
+            <h3>Holy Liturgy</h3>
+            <p class="service-time">5:00 – 7:00 AM</p>
+            <p>An early weekday Liturgy in the sanctuary.</p>
+          </article>
+          <article class="card card--dark service reveal reveal-delay-2">
+            <span class="service-day">Saturday</span>
+            <h3>Saturday Liturgy</h3>
+            <p class="service-time">8:15 – 11:15 AM</p>
+            <p>The Saturday Divine Liturgy.</p>
+          </article>
+          <article class="card card--dark service reveal reveal-delay-3">
+            <span class="service-day">Saturday</span>
+            <h3>Vespers &amp; Midnight Praises</h3>
+            <p class="service-time">1:00 – 4:00 PM</p>
+            <p>Evening Raising of Incense and the Tasbeha hymns of praise.</p>
+          </article>
+        </div>
+
+        <div class="btn-row reveal" style="justify-content:center; margin-top: var(--space-7);">
+          <a class="btn btn--gold" href="worship.html">Full Schedule &amp; Calendar</a>
+          <a class="btn btn--ghost-light" href="https://www.youtube.com/@saintmarydc" target="_blank" rel="noopener">
+            <svg class="icon" aria-hidden="true"><use href="#i-youtube"/></svg> YouTube Channel
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ First visit ============ -->
+    <section class="section section--parchment" aria-labelledby="visit-title">
+      <div class="container split split--reverse">
+        <figure class="photo reveal">
+          <img src="images/community.jpg" data-placeholder="images/placeholder-parchment.svg"
+               alt="A priest with young men of the parish at an outdoor church gathering" width="800" height="600">
+          <figcaption>Photo: Fellowship after Liturgy</figcaption>
+        </figure>
+
+        <div class="reveal reveal-delay-1">
+          <span class="eyebrow">First Visit?</span>
+          <h2 id="visit-title">Come and see</h2>
+          <p class="lede">You don’t need to know anything to join us. Here’s what to expect on a Sunday morning.</p>
+          <ol class="steps">
+            <li>
+              <h3>Arrive any time</h3>
+              <p>The Liturgy is long (around three hours), and many families arrive as it goes on. Slip in quietly and find a seat.</p>
+            </li>
+            <li>
+              <h3>Stand, sit, and simply pray</h3>
+              <p>We stand for the Gospel and key prayers and sit for readings and the sermon. Follow along with those around you.</p>
+            </li>
+            <li>
+              <h3>Stay for fellowship</h3>
+              <p>Holy Communion is received by Orthodox Christians who have prepared. Everyone is welcome to receive a blessing and join us afterward.</p>
+            </li>
+          </ol>
+          <div class="btn-row" style="margin-top: var(--space-6);">
+            <a class="btn btn--primary" href="visit.html">Plan Your Visit</a>
+            <a class="link-arrow" href="visit.html#new-to-orthodoxy">New to Orthodoxy?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Our Priest ============ -->
+    <section class="section section--ivory" aria-labelledby="priest-title">
+      <div class="container split">
+        <figure class="photo photo--arch photo--cutout reveal" style="max-width: 420px; margin-inline: auto; width: 100%;">
+          <img src="images/fr-domadious.jpg" data-placeholder="images/placeholder-lapis.svg"
+               alt="Portrait of Hegumen Fr. Domadious Sarabamoun" width="800" height="1000">
+          <figcaption>Photo: Fr. Domadious (portrait)</figcaption>
+        </figure>
+
+        <div class="reveal reveal-delay-1">
+          <span class="eyebrow">Our Priest</span>
+          <h2 id="priest-title">Hegumen Fr. Domadious Sarabamoun</h2>
+          <p class="lede">Fr. Domadious has shepherded St. Mary since August 2020, when the parish was founded.</p>
+          <ul class="priest-facts">
+            <li><span>Ordained</span><span>1999</span></li>
+            <li><span>Served in</span><span>Giza, Amsterdam, and Virginia</span></li>
+            <li><span>Background</span><span>Medical degree, Cairo University</span></li>
+            <li><span>At St. Mary</span><span>Since August 2020</span></li>
+          </ul>
+          <p>St. Mary is a parish of the Coptic Orthodox Diocese of Pennsylvania, Delaware, Maryland, West Virginia and its territories, under His Grace Bishop Karas.</p>
+          <div class="btn-row">
+            <a class="btn btn--ghost" href="about.html#priest">Meet Our Clergy</a>
+            <a class="link-arrow" href="https://copticpa.org" target="_blank" rel="noopener">Visit the Diocese</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Recent sermons ============ -->
+    <section class="section section--parchment" aria-labelledby="sermons-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Watch &amp; Listen</span>
+          <h2 id="sermons-title">Recent Sermons</h2>
+          <p>Catch up on sermons and Bible studies from our YouTube channel.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card video-card reveal">
+            <figure class="photo">
+              <img src="https://i.ytimg.com/vi/uDGM41vdzZE/hqdefault.jpg" data-placeholder="images/placeholder-lapis.svg" alt="" width="480" height="360" loading="lazy">
+              <div class="play" aria-hidden="true"><span><svg><use href="#i-play"/></svg></span></div>
+            </figure>
+            <div class="video-body">
+              <span class="tag">Sermon</span>
+              <h3><a href="https://www.youtube.com/watch?v=uDGM41vdzZE" target="_blank" rel="noopener">Jesus Christ, the Healer of Our Nature<span class="visually-hidden"> (opens in new tab)</span></a></h3>
+              <p class="video-meta">Fr. Domadious Sarabamoun</p>
+            </div>
+          </article>
+          <article class="card video-card reveal reveal-delay-1">
+            <figure class="photo">
+              <img src="https://i.ytimg.com/vi/EcGF-8CyWA0/hqdefault.jpg" data-placeholder="images/placeholder-lapis.svg" alt="" width="480" height="360" loading="lazy">
+              <div class="play" aria-hidden="true"><span><svg><use href="#i-play"/></svg></span></div>
+            </figure>
+            <div class="video-body">
+              <span class="tag">Sermon</span>
+              <h3><a href="https://www.youtube.com/watch?v=EcGF-8CyWA0" target="_blank" rel="noopener">Jesus Christ, the Good Teacher<span class="visually-hidden"> (opens in new tab)</span></a></h3>
+              <p class="video-meta">Fr. Domadious Sarabamoun</p>
+            </div>
+          </article>
+          <article class="card video-card reveal reveal-delay-2">
+            <figure class="photo">
+              <img src="https://i.ytimg.com/vi/mK6HLzrKXrw/hqdefault.jpg" data-placeholder="images/placeholder-lapis.svg" alt="" width="480" height="360" loading="lazy">
+              <div class="play" aria-hidden="true"><span><svg><use href="#i-play"/></svg></span></div>
+            </figure>
+            <div class="video-body">
+              <span class="tag">Sermon</span>
+              <h3><a href="https://www.youtube.com/watch?v=mK6HLzrKXrw" target="_blank" rel="noopener">For She Loved Much<span class="visually-hidden"> (opens in new tab)</span></a></h3>
+              <p class="video-meta">Fr. Domadious Sarabamoun</p>
+            </div>
+          </article>
+        </div>
+
+        <p style="text-align:center; margin-top: var(--space-6);"><a class="link-arrow" href="worship.html#sermons">Browse the Sermon Library</a></p>
+      </div>
+    </section>
+
+    <!-- ============ Upcoming events ============ -->
+    <section class="section section--ivory" aria-labelledby="events-title">
+      <div class="container container--narrow">
+        <div class="section-head reveal">
+          <span class="eyebrow">Parish Life</span>
+          <h2 id="events-title">Upcoming Events</h2>
+        </div>
+
+        <!-- Filled by js/main.js with the next four events from the weekly schedule.
+             The items below are a fallback for browsers without JavaScript. -->
+        <ul class="events" data-upcoming data-dynamic>
+          <li class="event">
+            <div class="event-date"><span class="m">Oct</span><span class="d">16</span></div>
+            <div><h3>Holy Liturgy</h3><p>Friday · 5:00 – 7:00 AM · Sanctuary</p></div>
+            <a class="btn btn--ghost btn--sm" href="worship.html#schedule">Details</a>
+          </li>
+          <li class="event">
+            <div class="event-date"><span class="m">Oct</span><span class="d">16</span></div>
+            <div><h3>Children’s Academy (Grades 3–6)</h3><p>Friday · 5:00 – 6:00 PM · Zoom only</p></div>
+            <a class="btn btn--ghost btn--sm" href="ministries.html#sunday-school">Details</a>
+          </li>
+          <li class="event">
+            <div class="event-date"><span class="m">Oct</span><span class="d">16</span></div>
+            <div><h3>Adults’ Academy (Arabic)</h3><p>Friday · 7:00 – 8:00 PM · Zoom only</p></div>
+            <a class="btn btn--ghost btn--sm" href="ministries.html#adult-academy">Details</a>
+          </li>
+          <li class="event">
+            <div class="event-date"><span class="m">Oct</span><span class="d">16</span></div>
+            <div><h3>Youth Academy (English)</h3><p>Friday · 7:45 – 9:00 PM · Church basement / Zoom</p></div>
+            <a class="btn btn--ghost btn--sm" href="ministries.html#youth-english">Details</a>
+          </li>
+        </ul>
+
+        <div class="ccb-note" style="justify-content: center;">
+          <a class="link-arrow" href="worship.html#calendar">Full Calendar</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============ Give CTA ============ -->
+    <section class="section section--parchment" aria-labelledby="give-title">
+      <div class="container container--narrow">
+        <div class="give-cta reveal">
+          <div class="divider" aria-hidden="true"><svg class="cross"><use href="#coptic-cross"/></svg></div>
+          <h2 id="give-title">Support Our Parish</h2>
+          <p>Your offerings sustain our worship, our youth, and our service to the community, and help build a lasting home for St. Mary in the D.C. area.</p>
+          <div class="btn-row">
+            <a class="btn btn--gold" href="give.html">Give Online</a>
+            <a class="btn btn--ghost" href="give.html#text-to-give">Text to Give</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="St. Mary Coptic Orthodox Church, home">
+        <span class="brand-mark"><img src="images/logo.jpg" alt="" width="64" height="64"></span>
+        <span class="brand-text">
+          <span class="brand-name">St. Mary</span>
+          <span class="brand-sub">Coptic Orthodox Church · Washington D.C.</span>
+        </span>
+      </a>
+        <address>
+          5910 Goldsboro Rd<br>
+          Bethesda, MD 20817<br>
+          <a href="tel:+12404684030">(240) 468-4030</a>
+        </address>
+        <div class="social">
+          <a href="https://www.youtube.com/@saintmarydc" aria-label="St. Mary on YouTube" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-youtube"/></svg></a>
+          <a href="https://www.facebook.com/SaintmaryDC" aria-label="St. Mary on Facebook" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-facebook"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-list">
+          <li><a href="visit.html">Plan Your Visit</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="worship.html">Worship &amp; Live Stream</a></li>
+          <li><a href="ministries.html">Ministries</a></li>
+          <li><a href="faith.html">The Coptic Faith</a></li>
+          <li><a href="give.html">Give</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Connect</h2>
+        <ul class="footer-list">
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="https://copadiocese.ccbchurch.com/goto/login" target="_blank" rel="noopener">Member Login (CCB)</a></li>
+          <li><a href="https://copticpa.org" target="_blank" rel="noopener">Diocese of PA, DE, MD &amp; WV</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <a class="btn btn--gold footer-join" href="https://copadiocese.ccbchurch.com/goto/login" target="_blank" rel="noopener">Join Our Community</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span data-year>2026</span> St. Mary Coptic Orthodox Church of Washington D.C.</span>
+      <span>A parish of the Coptic Orthodox Diocese of Pennsylvania, Delaware, Maryland, West Virginia and its territories</span>
+    </div>
+  </footer>
+
+  <script src="js/readings-data.js?v=20261017d" defer></script>
+  <script src="js/main.js?v=20261017d" defer></script>
+</body>
+</html>

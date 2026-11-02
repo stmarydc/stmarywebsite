@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L62ETL212"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9L62ETL212');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Coptic Faith · St. Mary Coptic Orthodox Church</title>
+  <meta name="description" content="An introduction to Coptic Orthodox beliefs, sacraments, fasting, the Coptic calendar, and the Agpeya.">
+  <link rel="icon" href="images/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&family=Noto+Sans+Coptic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=20261017d">
+</head>
+<body>
+
+  <!-- ============ SVG sprite: the Coptic cross + icons (drawn for this site) ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <!-- Coptic cross: four equal flared arms, each ending in a trefoil (three budded circles) -->
+      <symbol id="coptic-cross" viewBox="0 0 100 100">
+        <g id="cross-arm">
+          <path d="M46 50 43 24h14l-3 26z"/>
+          <circle cx="50" cy="13" r="6.5"/>
+          <circle cx="41" cy="21" r="5.5"/>
+          <circle cx="59" cy="21" r="5.5"/>
+        </g>
+        <use href="#cross-arm" transform="rotate(90 50 50)"/>
+        <use href="#cross-arm" transform="rotate(180 50 50)"/>
+        <use href="#cross-arm" transform="rotate(270 50 50)"/>
+        <circle cx="50" cy="50" r="7"/>
+      </symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></symbol>
+      <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1c.4-1.6.5-3.2.5-4.8s-.1-3.2-.5-4.8zM9.7 15.1V8.9l5.8 3.1z"/></symbol>
+      <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M13.5 22v-8.2h2.8l.4-3.2h-3.2V8.5c0-.9.3-1.6 1.6-1.6h1.7V4.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.2h2.8V22z"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.4 3.5 2.1-.8 1.3L11 13V7h2z"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="St. Mary Coptic Orthodox Church, home">
+        <span class="brand-mark"><img src="images/logo.jpg" alt="" width="64" height="64"></span>
+        <span class="brand-text">
+          <span class="brand-name">St. Mary</span>
+          <span class="brand-sub">Coptic Orthodox Church · Washington D.C.</span>
+        </span>
+      </a>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <button class="nav-close" type="button" aria-label="Close menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+        </button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="worship.html">Worship</a></li>
+          <li><a href="ministries.html">Ministries</a></li>
+          <li><a href="faith.html" aria-current="page">Our Faith</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" aria-pressed="true" lang="en">EN</button>
+          <button type="button" aria-pressed="false" lang="ar">عربي</button>
+        </div>
+        <div class="nav-extra">
+          <a class="btn btn--gold" href="give.html">Give</a>
+          <a href="https://copadiocese.ccbchurch.com/goto/login" target="_blank" rel="noopener">Member Login (CCB)</a>
+          <a href="tel:+12404684030">(240) 468-4030</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-toggle header-lang" role="group" aria-label="Language">
+          <button type="button" aria-pressed="true" lang="en">EN</button>
+          <button type="button" aria-pressed="false" lang="ar">عربي</button>
+        </div>
+        <a class="btn btn--gold btn--sm" href="give.html">Give</a>
+        <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="nav-scrim" aria-hidden="true"></div>
+  </header>
+
+  <!-- ============ Fasting-season banner (js/main.js shows it only while a fast is active) ============ -->
+  <aside class="fast-banner" aria-label="Current fasting season" data-fast-banner>
+    <div class="container">
+      <svg class="cross" aria-hidden="true"><use href="#coptic-cross"/></svg>
+      <strong data-dynamic data-fast-name>Nativity Fast</strong>
+      <span data-dynamic data-fast-day>Day 12 of 43</span>
+    </div>
+  </aside>
+
+
+  <main id="main">
+
+    <!-- ============ Page hero ============ -->
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <div class="divider" aria-hidden="true"><svg class="cross"><use href="#coptic-cross"/></svg></div>
+        <span class="eyebrow">The Coptic Faith</span>
+        <h1 id="page-title">The faith once delivered to the saints</h1>
+        <p class="lede">An introduction to what the Coptic Orthodox Church believes, and how that faith shapes our prayer, our year, and our daily life.</p>
+      </div>
+    </section>
+
+    <nav class="subnav" aria-label="On this page">
+      <ul>
+        <li><a href="#beliefs">Beliefs</a></li>
+        <li><a href="#sacraments">Sacraments</a></li>
+        <li><a href="#fasting">Fasting</a></li>
+        <li><a href="#calendar">Coptic Calendar</a></li>
+        <li><a href="#agpeya">The Agpeya</a></li>
+      </ul>
+    </nav>
+
+    <!-- ============ Beliefs ============ -->
+    <section id="beliefs" class="section section--ivory" aria-labelledby="beliefs-title">
+      <div class="container split">
+        <div class="reveal">
+          <span class="eyebrow">What We Believe</span>
+          <h2 id="beliefs-title">Orthodox, apostolic, ancient</h2>
+          <div class="prose">
+            <p class="lede">The Coptic Orthodox Church is the Church of Alexandria, founded by St. Mark the Apostle. “Copt” comes from the Greek word for Egyptian.</p>
+            <p>Together with the Armenian, Syriac, Ethiopian, Eritrean, and Indian (Malankara) Orthodox Churches, we belong to the family of Oriental Orthodox Churches, which share one faith and communion.</p>
+            <ul>
+              <li><strong>The Holy Trinity:</strong> one God in three Persons, Father, Son, and Holy Spirit.</li>
+              <li><strong>The Incarnation:</strong> Jesus Christ is fully God and fully man, one Lord, as St. Cyril of Alexandria taught: “one nature of God the Word incarnate,” without mingling, confusion, or change.</li>
+              <li><strong>Salvation:</strong> by God’s grace, received through faith, the sacraments, and a life of repentance and love.</li>
+              <li><strong>Holy Scripture and Holy Tradition:</strong> the Bible, read within the living teaching of the Church, the Councils, and the Fathers.</li>
+              <li><strong>The communion of saints:</strong> we honor St. Mary the Theotokos, the martyrs, and all the saints, and ask their prayers.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="reveal reveal-delay-1">
+          <div class="card card--framed stack">
+            <span class="eyebrow">The Creed</span>
+            <h3>The Nicene Creed</h3>
+            <p>Formulated at the Councils of Nicaea (325), where St. Athanasius of Alexandria defended the faith, and Constantinople (381), the Creed is proclaimed in every Liturgy. It begins:</p>
+            <p class="scripture" style="text-align: start; font-size: 1.2rem;">“We believe in one God, God the Father, the Pantocrator, Creator of heaven and earth, and of all things seen and unseen…”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Sacraments ============ -->
+    <section id="sacraments" class="section section--parchment" aria-labelledby="sacraments-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">The Holy Mysteries</span>
+          <h2 id="sacraments-title">The seven sacraments</h2>
+          <p>Through the sacraments, the Holy Spirit gives the grace of God to the faithful at every stage of life.</p>
+        </div>
+
+        <div class="grid grid--4 numbered">
+          <article class="card card--framed reveal"><h3>Baptism</h3><p>New birth by water and the Spirit: full immersion, three times, in the name of the Holy Trinity.</p></article>
+          <article class="card card--framed reveal reveal-delay-1"><h3>Chrismation</h3><p>The seal of the gift of the Holy Spirit, given with the holy Myron immediately after Baptism.</p></article>
+          <article class="card card--framed reveal reveal-delay-2"><h3>Eucharist</h3><p>Holy Communion: the true Body and Blood of Christ, the center of the Church’s life.</p></article>
+          <article class="card card--framed reveal reveal-delay-3"><h3>Repentance &amp; Confession</h3><p>Returning to God, confessing before a priest, and receiving absolution and guidance.</p></article>
+          <article class="card card--framed reveal"><h3>Unction of the Sick</h3><p>Prayer and anointing with oil for the healing of body and soul.</p></article>
+          <article class="card card--framed reveal reveal-delay-1"><h3>Matrimony</h3><p>The crowning of husband and wife, united by God in one life of love.</p></article>
+          <article class="card card--framed reveal reveal-delay-2"><h3>Priesthood</h3><p>The ordination of bishops, priests, and deacons to serve the Church.</p></article>
+          <article class="card reveal reveal-delay-3" style="background: var(--lapis); color: var(--on-dark); border-color: var(--lapis); justify-content: center;">
+            <h3 style="color: var(--ivory);">Preparing for a sacrament?</h3>
+            <p style="color: var(--on-dark-muted);">Baptisms, weddings, and confession are arranged with Fr. Domadious.</p>
+            <div class="card-foot"><a class="btn btn--gold btn--sm" href="contact.html#message">Request an Appointment</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Fasting ============ -->
+    <section id="fasting" class="section section--ivory" aria-labelledby="fasting-title">
+      <div class="container split">
+        <div class="reveal">
+          <span class="eyebrow">Fasting</span>
+          <h2 id="fasting-title">A Church that fasts</h2>
+          <div class="prose">
+            <p class="lede">The Coptic Church keeps more fasting days than almost any other, over two hundred in a year.</p>
+            <p>Fasting means abstaining from all food for a period of the day, and then eating a vegan diet with no meat, dairy, or eggs. It is always joined to prayer, repentance, and giving to the poor. Fasting rules are adapted for children, the sick, and others under the guidance of one’s father of confession.</p>
+            <p>When a fast is under way, you’ll see a banner at the top of every page of this site.</p>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-1">
+          <div class="card card--framed" style="padding-block: var(--space-4);">
+            <table class="schedule">
+              <caption class="visually-hidden">Fasts of the Coptic Church</caption>
+              <thead><tr><th scope="col">Fast</th><th scope="col">Length</th><th scope="col">When</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Wednesdays &amp; Fridays</th><td data-label="Length">Weekly</td><td data-label="When">All year, except the 50 days after Easter</td></tr>
+                <tr><th scope="row">Nativity Fast</th><td data-label="Length">43 days</td><td data-label="When">Nov 25 – Jan 6</td></tr>
+                <tr><th scope="row">Jonah’s Fast</th><td data-label="Length">3 days</td><td data-label="When">Two weeks before Great Lent</td></tr>
+                <tr><th scope="row">Great Lent &amp; Holy Week</th><td data-label="Length">55 days</td><td data-label="When">Before the Feast of the Resurrection</td></tr>
+                <tr><th scope="row">Apostles’ Fast</th><td data-label="Length">Varies</td><td data-label="When">After Pentecost until July 12</td></tr>
+                <tr><th scope="row">St. Mary’s Fast</th><td data-label="Length">15 days</td><td data-label="When">Aug 7 – 21</td></tr>
+                <tr><th scope="row">Paramoun</th><td data-label="Length">1–3 days</td><td data-label="When">Eves of Nativity &amp; Theophany</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Coptic calendar ============ -->
+    <section id="calendar" class="section section--parchment" aria-labelledby="coptic-cal-title">
+      <div class="container split">
+        <div class="reveal">
+          <span class="eyebrow">Keeping Time</span>
+          <h2 id="coptic-cal-title">The Coptic calendar</h2>
+          <div class="prose">
+            <p class="lede">The Church counts its years <em>Anno Martyrum</em> (A.M.), the “Year of the Martyrs,” beginning in AD 284 to honor those who died under Emperor Diocletian.</p>
+            <p>The calendar descends from the ancient Egyptian one. It has twelve months of thirty days each, plus a short thirteenth month of five or six days. The new year, the Feast of the <em>Nayrouz</em>, falls on September 11 (or 12 in the year before a Gregorian leap year).</p>
+            <p>Feasts, fasts, and the daily readings (the <em>Katameros</em>) and saints (the <em>Synaxarium</em>) all follow this calendar. See today’s Coptic date on our <a href="index.html">home page</a>.</p>
+          </div>
+        </div>
+        <div class="card card--framed reveal reveal-delay-1" style="padding: var(--space-4);">
+          <table class="months">
+            <caption class="visually-hidden">The thirteen Coptic months and their usual Gregorian start dates</caption>
+            <thead><tr><th scope="col">#</th><th scope="col">Month</th><th scope="col">Coptic</th><th scope="col">Begins</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>Thout</td><td lang="cop">Ⲑⲱⲟⲩⲧ</td><td>Sep 11</td></tr>
+              <tr><td>2</td><td>Paopi</td><td lang="cop">Ⲡⲁⲟⲡⲉ</td><td>Oct 11</td></tr>
+              <tr><td>3</td><td>Hathor</td><td lang="cop">Ⲁⲑⲱⲣ</td><td>Nov 10</td></tr>
+              <tr><td>4</td><td>Koiak</td><td lang="cop">Ⲭⲟⲓⲁⲕ</td><td>Dec 10</td></tr>
+              <tr><td>5</td><td>Tobi</td><td lang="cop">Ⲧⲱⲃⲓ</td><td>Jan 9</td></tr>
+              <tr><td>6</td><td>Meshir</td><td lang="cop">Ⲙⲉϣⲓⲣ</td><td>Feb 8</td></tr>
+              <tr><td>7</td><td>Paremhat</td><td lang="cop">Ⲡⲁⲣⲉⲙϩⲁⲧ</td><td>Mar 10</td></tr>
+              <tr><td>8</td><td>Parmouti</td><td lang="cop">Ⲫⲁⲣⲙⲟⲩⲑⲓ</td><td>Apr 9</td></tr>
+              <tr><td>9</td><td>Pashons</td><td lang="cop">Ⲡⲁϣⲟⲛⲥ</td><td>May 9</td></tr>
+              <tr><td>10</td><td>Paoni</td><td lang="cop">Ⲡⲁⲱⲛⲓ</td><td>Jun 8</td></tr>
+              <tr><td>11</td><td>Epip</td><td lang="cop">Ⲉⲡⲏⲡ</td><td>Jul 8</td></tr>
+              <tr><td>12</td><td>Mesori</td><td lang="cop">Ⲙⲉⲥⲱⲣⲓ</td><td>Aug 7</td></tr>
+              <tr><td>13</td><td>Nasie</td><td lang="cop">Ⲡⲓⲕⲟⲩϫⲓ ⲛ̀ⲁ̀ⲃⲟⲧ</td><td>Sep 6</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Agpeya ============ -->
+    <section id="agpeya" class="section section--lapis" aria-labelledby="agpeya-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">The Agpeya</span>
+          <h2 id="agpeya-title">Praying the hours</h2>
+          <p>The Agpeya (from the Coptic word for “hour”) is the Coptic book of hours. Each hour of prayer remembers a moment in the life of Christ, with psalms, a Gospel reading, and prayers.</p>
+        </div>
+
+        <ol class="hours">
+          <li class="reveal"><span class="hour-time">Prime<br>~6 AM</span><div><h3>First Hour</h3><p>The Resurrection of Christ, the true Light, at the start of the day.</p></div></li>
+          <li class="reveal reveal-delay-1"><span class="hour-time">Terce<br>~9 AM</span><div><h3>Third Hour</h3><p>The descent of the Holy Spirit at Pentecost, and Christ’s trial before Pilate.</p></div></li>
+          <li class="reveal"><span class="hour-time">Sext<br>~12 PM</span><div><h3>Sixth Hour</h3><p>The Crucifixion of our Lord.</p></div></li>
+          <li class="reveal reveal-delay-1"><span class="hour-time">None<br>~3 PM</span><div><h3>Ninth Hour</h3><p>The death of Christ on the Cross for our salvation.</p></div></li>
+          <li class="reveal"><span class="hour-time">Vespers<br>~5 PM</span><div><h3>Eleventh Hour</h3><p>The taking down of Christ’s body from the Cross.</p></div></li>
+          <li class="reveal reveal-delay-1"><span class="hour-time">Compline<br>~6 PM</span><div><h3>Twelfth Hour</h3><p>The burial of Christ, and preparing our souls for sleep.</p></div></li>
+          <li class="reveal"><span class="hour-time">Midnight</span><div><h3>Midnight Prayer</h3><p>Three watches awaiting the Second Coming of Christ, the Bridegroom.</p></div></li>
+          <li class="reveal reveal-delay-1"><span class="hour-time">Veil</span><div><h3>Prayer of the Veil</h3><p>A prayer of self-examination, traditionally prayed by monastics.</p></div></li>
+        </ol>
+
+        <div class="btn-row reveal" style="justify-content: center; margin-top: var(--space-7);">
+          <a class="btn btn--gold" href="https://agpeya.org/" target="_blank" rel="noopener">Pray the Agpeya Online</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="St. Mary Coptic Orthodox Church, home">
+        <span class="brand-mark"><img src="images/logo.jpg" alt="" width="64" height="64"></span>
+        <span class="brand-text">
+          <span class="brand-name">St. Mary</span>
+          <span class="brand-sub">Coptic Orthodox Church · Washington D.C.</span>
+        </span>
+      </a>
+        <address>
+          5910 Goldsboro Rd<br>
+          Bethesda, MD 20817<br>
+          <a href="tel:+12404684030">(240) 468-4030</a>
+        </address>
+        <div class="social">
+          <a href="https://www.youtube.com/@saintmarydc" aria-label="St. Mary on YouTube" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-youtube"/></svg></a>
+          <a href="https://www.facebook.com/SaintmaryDC" aria-label="St. Mary on Facebook" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-facebook"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h2>Explore</h2>
+        <ul class="footer-list">
+          <li><a href="visit.html">Plan Your Visit</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="worship.html">Worship &amp; Live Stream</a></li>
+          <li><a href="ministries.html">Ministries</a></li>
+          <li><a href="faith.html">The Coptic Faith</a></li>
+          <li><a href="give.html">Give</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Connect</h2>
+        <ul class="footer-list">
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="https://copadiocese.ccbchurch.com/goto/login" target="_blank" rel="noopener">Member Login (CCB)</a></li>
+          <li><a href="https://copticpa.org" target="_blank" rel="noopener">Diocese of PA, DE, MD &amp; WV</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <a class="btn btn--gold footer-join" href="https://copadiocese.ccbchurch.com/goto/login" target="_blank" rel="noopener">Join Our Community</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span data-year>2026</span> St. Mary Coptic Orthodox Church of Washington D.C.</span>
+      <span>A parish of the Coptic Orthodox Diocese of Pennsylvania, Delaware, Maryland, West Virginia and its territories</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js?v=20261017d" defer></script>
+</body>
+</html>
